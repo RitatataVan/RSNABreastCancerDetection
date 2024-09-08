@@ -14,6 +14,12 @@ Dataset: https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data <
 Extra Dataset: https://www.kaggle.com/datasets/pourchot/ddsm-mammography-positive-case
 
 ## Preprocess
+Data Preprocess: `rsna-cropped-tfrecords-768x1344-dataset-2.ipynb` <br>
+Extra Data Preprocess：`rsna-extra-positive-data-process.ipynb` <br>
+
+## Train
+Data Train: `rsna-convnextv2-training-m1-folds.ipynb` <br>
+Extra Data Train: `rsna-convnextv2-training-m1-extra-folds.ipynb` <br>
 
 ## Methods
 - Conducted VOI-LUT to adjust grayscale, used YOLOX-m for ROI Cropping, and resized images to a 1.75:1 aspect ratio with padding for data pre-processing
