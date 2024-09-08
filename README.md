@@ -22,6 +22,6 @@ Data Train: `rsna-convnextv2-training-m1-folds.ipynb` <br>
 Extra Data Train: `rsna-convnextv2-training-m1-extra-folds.ipynb` <br>
 
 ## Methods
-- Conducted VOI-LUT to adjust grayscale, used YOLOX-m for ROI Cropping, and resized images to a 1.75:1 aspect ratio with padding for data pre-processing
-- Implemented undersampling by choosing a smaller subset of the majority class to address imbalanced data issue
-- Employed ConvNextV2Tiny with a global average pooling layer for binary classification of breast cancer detection, achieving superior pF1 scores
+- Conducted **VOI-LUT** to adjust grayscale, used **YOLOX-m** for **ROI Cropping**, and resized images to a 1.75:1 aspect ratio with padding for data pre-processing
+- Implemented **undersampling** by choosing a smaller subset of the majority class to address imbalanced data issue
+- Employed **ConvNextV2Tiny** with a global average pooling layer for binary classification of breast cancer detection, achieving superior pF1 scores
